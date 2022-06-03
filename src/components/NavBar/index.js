@@ -1,5 +1,5 @@
 import React from "react";
-import App from "../../App";
+import "./index.css";
 
 function NavBar() {
   return (
@@ -17,7 +17,5 @@ function NavBar() {
     </div>
   );
 }
-
-function footerBar() {}
 
 export default NavBar;
