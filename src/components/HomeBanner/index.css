@@ -1,0 +1,19 @@
+.home-banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.studio-img {
+  width: 500px;
+}
+
+.wrapper {
+  width: 500px;
+  overflow: hidden;
+}
