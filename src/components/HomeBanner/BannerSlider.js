@@ -9,11 +9,11 @@ function BannerSlider() {
   return (
     <div className="wrapper">
       <div className="slider-container">
-        <SliderItem className="studio1" src={studio} alt="studio" />
-        <SliderItem className="studio2" src={studio2} alt="studio2" />
-        <SliderItem className="studio3" src={studio3} alt="studio3" />
-        <SliderItem className="studio4" src={studio4} alt="studio4" />
-        <SliderItem className="studio5" src={studio5} alt="studio5" />
+        <SliderItem studioNumber="studio1" src={studio} alt="studio" />
+        <SliderItem studioNumber="studio2" src={studio2} alt="studio2" />
+        <SliderItem studioNumber="studio3" src={studio3} alt="studio3" />
+        <SliderItem studioNumber="studio4" src={studio4} alt="studio4" />
+        <SliderItem studioNumber="studio5" src={studio5} alt="studio5" />
       </div>
     </div>
   );

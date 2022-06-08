@@ -13,7 +13,9 @@ function HomeBanner() {
           <Button className="services-btn" text="Послуги" />
         </div>
       </div>
+      <span className="arrow-prev"></span>
       <BannerSlider />
+      <span className="arrow-next"></span>
     </div>
   );
 }

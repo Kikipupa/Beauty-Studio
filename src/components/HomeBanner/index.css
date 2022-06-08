@@ -1,7 +1,7 @@
 .home-banner-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .banner-content {
@@ -13,7 +13,64 @@
   width: 500px;
 }
 
+.slider-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 720px;
+}
+
 .wrapper {
   width: 500px;
   overflow: hidden;
+}
+
+.arrow-next {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  transition: all 500ms ease;
+}
+
+.arrow-next::after {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-left: 3px solid gray;
+  border-bottom: 3px solid gray;
+  transform: rotate(225deg);
+}
+
+.arrow-next:hover {
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.arrow-prev {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  transition: all 500ms ease;
+}
+
+.arrow-prev::after {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-left: 3px solid gray;
+  border-bottom: 3px solid gray;
+  transform: rotate(45deg);
+}
+
+.arrow-prev:hover {
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
 }

@@ -1,7 +1,7 @@
 function SliderItem(props) {
   return (
-    <div className={props.className}>
-      <img className="studio-img" src={props.src} alt={props.alt}></img>
+    <div className="studio-default">
+      <img className={props.studioNumber} src={props.src} alt={props.alt}></img>
     </div>
   );
 }
