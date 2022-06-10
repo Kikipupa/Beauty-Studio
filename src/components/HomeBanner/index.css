@@ -74,3 +74,21 @@
   -ms-transform: scale(1.5);
   transform: scale(1.5);
 }
+
+.booking-btn {
+  height: 70px;
+  width: 215px;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: #ebc1c5;
+  border: none;
+}
+
+.services-btn {
+  height: 70px;
+  width: 215px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: transparent;
+}
